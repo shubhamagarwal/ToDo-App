@@ -1,0 +1,7 @@
+query tasksAll ($count: Int) {
+  allTodos(count: $count) {
+    id
+    title
+    completed
+  }
+}
